@@ -1,0 +1,17 @@
+{
+    "name": "yt-discord-notifier",
+    "version": "1.0.0",
+    "description": "Watch YouTube channels via RSS and post new uploads/live events to Discord webhooks.",
+    "main": "src/index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "rss-parser": "^3.13.0"
+    }
+}
